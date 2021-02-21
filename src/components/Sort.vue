@@ -5,8 +5,8 @@
   <input v-model="a">
   <p> Input 2</p>
   <input v-model="b">
-  <p> sum:{{Add}}</p>
-  <router-link :to ="{name:'todo', params: { Add } }">Calculate Sum</router-link>
+  <!-- <p> sum:{{Add}}</p> -->
+  <br/><router-link tag="button" :to ="{name:'todo', params: { Add } }">Calculate Sum</router-link>
   
   
 </div>
